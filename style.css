@@ -14,8 +14,12 @@ body {
 }
 
 .container {
-    width: min(1200px, calc(100% - 40px));
+    width: min(1300px, calc(100% - 40px));
     margin: 0 auto;
+	max-width: 1300px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 
@@ -106,7 +110,7 @@ nav a,
 /* HERO */
 
 .hero {
-    min-height: 560px;
+    min-height: 500px;
     display: flex;
     align-items: center;
     background: linear-gradient(
@@ -131,7 +135,7 @@ nav a,
 
 .hero-image {
     width: 50%;
-    height: 560px;
+    height: 500px;
     background-image: url("images/top.png");
     background-size:cover;
     background-position:center;
@@ -242,21 +246,24 @@ h1 span {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 50px 40px;
+	padding: 50px 0px;
 	box-sizing: border-box;
+	text-align: right;
 }
 
 .trust-description {
 	color: #f7eeee;
-	font-size: 24px;
-	line-height: 1.5;
+	font-size: 34px;
+    line-height: 1.05;
 	margin: 0;
 	font-weight: 500;
+
 }
 .trust-highlight {
 	color: #e6a23c;
-	font-weight: 800;
-	font-size: 32px;
+	font-weight: 700;
+	font-size: 46px;
+    line-height: 1.05;
 	display: block;
 	margin: 15px 0;
 }
